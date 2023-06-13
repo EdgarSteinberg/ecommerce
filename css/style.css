@@ -171,19 +171,49 @@ main {
     border-radius: 5px;
    
 }
+
+
 .propaganda{
-    width: 90%;
-    margin:auto;
-    display: flex;
+    width: 95%;
+    margin:0,auto;
+    padding: 40px;
    
-    
-    
 }
 .propaganda img{
     width: 100%;
     height: 250px;
     margin:30px ;
-    object-fit:cover;
-   
+    object-fit:cover; 
+}
+.ofertas{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    transition: 1s;
+}
+
+.ofertas div{
+    width: 50%;
+}
+.ofertas img{
+    width: 280px;
+    height: 250px;
+}
+.ofertas-contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 254, 254);
+}
+.ofertas-contenedor h3{
+    font-size: 13px;
+    color: dimgray;
     
+}
+.ofertas-contenedor p{
+ 
+    font-size: 27px;
+    color: rgb(68, 67, 67);
 }
